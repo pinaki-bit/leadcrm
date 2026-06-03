@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "client/build",
+  "env": {
+    "MONGO_URI": "@mongodb_uri"
+  },
+  "functions": {
+    "server/server.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}
