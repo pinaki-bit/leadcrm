@@ -1,0 +1,11 @@
+{
+  "name": "lead-crm-complete",
+  "private": true,
+  "scripts": {
+    "build": "npm run build --prefix client",
+    "start": "node server/server.js",
+    "postinstall": "npm install --prefix server && npm install --prefix client && npm run build --prefix client",
+    "client-install": "npm install --prefix client",
+    "server-install": "npm install --prefix server"
+  }
+}
