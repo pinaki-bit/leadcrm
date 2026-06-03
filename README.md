@@ -26,3 +26,24 @@ Features: CRUD, Search, Status, Stats, Pagination, Filtering.
 ### Notes
 - The backend listens on `process.env.PORT || 5000`.
 - The front-end is built in `client/build` and served by Express when `NODE_ENV=production`.
+
+
+# Lead Management CRM
+
+## Live Demo
+https://web-production-f10a3.up.railway.app
+
+## Features
+- Create Leads
+- Update Leads
+- Delete Leads
+- Search Leads
+- MongoDB Integration
+
+## Tech Stack
+- React
+- Node.js
+- Express
+- MongoDB
+- Railway
+
