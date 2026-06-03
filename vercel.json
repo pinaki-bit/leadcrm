@@ -1,12 +1,8 @@
 {
-  "buildCommand": "npm run build",
+  "version": 2,
+  "buildCommand": "npm run build --prefix client",
   "outputDirectory": "client/build",
   "env": {
     "MONGO_URI": "@mongodb_uri"
-  },
-  "functions": {
-    "server/server.js": {
-      "runtime": "nodejs18.x"
-    }
   }
 }
