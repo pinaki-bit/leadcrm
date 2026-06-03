@@ -1,0 +1,12 @@
+services:
+- type: web
+  name: leadcrm
+  env: node
+  plan: free
+  buildCommand: npm run build
+  startCommand: npm start
+  envVars:
+  - key: NODE_ENV
+    value: production
+  - key: MONGO_URI
+    value: mongodb://127.0.0.1:27017/lead-crm
